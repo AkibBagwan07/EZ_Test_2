@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "a0466dc2-5844-41a9-833c-b4c4cd535318",
+		"name": "EZ-test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32606573"
+	},
+	"item": [
+		{
+			"name": "data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"akib9696@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "34.225.132.160:8002/api",
+					"host": [
+						"34",
+						"225",
+						"132",
+						"160"
+					],
+					"port": "8002",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "34.225.132.160:8002/api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"bhavy@ez.works\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "34.225.132.160:8002/api",
+					"host": [
+						"34",
+						"225",
+						"132",
+						"160"
+					],
+					"port": "8002",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
